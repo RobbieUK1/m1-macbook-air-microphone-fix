@@ -9,7 +9,7 @@ On affected systems the Secure Enclave driver does not load automatically. The b
 Once this repository has been published under `RobbieUK1/m1-macbook-air-microphone-fix`, run:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/RobbieUK1/m1-macbook-air-microphone-fix/main/install.sh -o /tmp/m1-microphone-install.sh && bash /tmp/m1-microphone-install.sh
+curl -fsSL https://raw.githubusercontent.com/RobbieUK1/m1-macbook-air-microphone-fix/main/install.sh | bash
 ```
 
 The installer asks for administrator authentication. It starts the driver immediately and enables the same startup step for future boots. Select **MacBook Microphone** in your recording or dictation app; reopen the app if necessary. No reboot is normally needed to activate the fix.
