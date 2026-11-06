@@ -6,7 +6,7 @@ On affected systems the Secure Enclave driver does not load automatically. The b
 
 ## Install
 
-Once this repository has been published under `RobbieUK1/m1-macbook-air-microphone-fix`, run:
+Run this command in a terminal:
 
 ```bash
 curl -fsSL https://raw.githubusercontent.com/RobbieUK1/m1-macbook-air-microphone-fix/main/install.sh | bash
